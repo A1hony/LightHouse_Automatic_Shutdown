@@ -89,7 +89,8 @@ def dofetch(id, key, region):
                 msgContent = InstanceId + " ：流量超出限制，即将自动关机。" + "剩余流量：" + TrafficPackageRemaining + "GB"
                 # msgUrl = tgBotUrl + tgToken + "/" + msgContent
                 # response = requests.get(url=msgUrl).text
-                print(response)
+                # print(response)
+                print(msgContent)
         else:
             print("已关机")
 
